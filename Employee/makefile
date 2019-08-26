@@ -9,6 +9,7 @@ Technician.o: Technician.cpp Technician.h
 .PHONY:clean
 clean:
 	rm -rf *.o run
+# author: meng  date:2019/8/26 
 # the function of dependence is renovate target after
 # the dependence is modified.
 # .PHONY 表示隐晦规则，表示clean为伪目标文件（否则路径中包含clean文件时，
